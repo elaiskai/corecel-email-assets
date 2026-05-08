@@ -7,14 +7,12 @@
 </head>
 <body style="margin:0;padding:0;background:#d8d8d8;font-family:Arial,Helvetica,sans-serif;">
 
-<!-- Outer wrapper (mimics Omnisend canvas) -->
 <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background:#d8d8d8;">
 <tr><td align="center" style="padding:24px 12px;">
 
-<!-- Email body 600px -->
 <table cellpadding="0" cellspacing="0" border="0" width="600" style="width:600px;max-width:100%;background:#ffffff;">
 
-  <!-- Header (logo) — mirrors Omnisend native logo block -->
+  <!-- Header (logo) -->
   <tr><td align="center" style="padding:32px 40px 8px;background:#d8d8d8;">
     <div style="font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:600;letter-spacing:0.18em;color:#111111;text-transform:lowercase;">corecel</div>
     <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:500;letter-spacing:0.2em;color:#888888;text-transform:uppercase;margin-top:8px;">Longevidad · Bienestar · Ciencia</div>
@@ -22,52 +20,73 @@
 
   <!-- Body content -->
   <tr><td style="padding:0 40px;background:#ffffff;">
-
     <table cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:#ffffff;font-family:Arial,Helvetica,sans-serif;">
+      <tr><td align="left" style="padding:28px 0 18px;">
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:#888888;text-align:left;">Aviso · Mayo 2026</div>
+      </td></tr>
+      <tr><td align="left" style="padding:6px 0 14px;">
+        <div style="font-family:Georgia,'Times New Roman',serif;font-size:32px;font-weight:400;color:#111111;line-height:1.25;letter-spacing:-0.3px;text-align:left;">Si no pudiste terminar tu compra,</div>
+        <div style="font-family:Georgia,'Times New Roman',serif;font-size:32px;font-weight:400;font-style:italic;color:#999999;line-height:1.25;letter-spacing:-0.3px;text-align:left;">era un problema nuestro.</div>
+      </td></tr>
+      <tr><td align="left" style="padding:6px 0 22px;">
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;color:#888888;line-height:1.7;text-align:left;">Tuvimos un fallo de pago durante dos semanas. Ya está resuelto.</div>
+      </td></tr>
+      <tr><td align="left" style="padding:30px 0 6px;">
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:400;color:#333333;line-height:1.75;margin-bottom:16px;text-align:left;">Hola,</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:400;color:#333333;line-height:1.75;margin-bottom:16px;text-align:left;">Durante las dos últimas semanas, nuestra plataforma de pago tuvo un fallo intermitente. Algunos pedidos no llegaron a completarse, y queremos pedirte disculpas si fue tu caso.</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:400;color:#333333;line-height:1.75;text-align:left;">El problema ya está solucionado. Si tu carrito sigue esperando, puedes retomarlo cuando quieras, sin prisa.</div>
+      </td></tr>
+      <tr><td style="padding:32px 0;"><div style="height:1px;background:#e0e0e0;"></div></td></tr>
+      <tr><td align="left" style="padding:0 0 32px;">
+        <a href="https://corecel.es/" target="_blank" style="display:inline-block;background:#444444;color:#ffffff;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:18px 32px;">Volver a Corecel</a>
+      </td></tr>
+      <tr><td align="left" style="padding:0 0 24px;">
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;color:#666666;line-height:1.7;text-align:left;font-style:italic;">Gracias por tu paciencia.</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;color:#666666;line-height:1.7;text-align:left;margin-top:6px;">El equipo de Corecel</div>
+      </td></tr>
+    </table>
+  </td></tr>
+
+  <!-- Cart intro heading -->
+  <tr><td style="padding:24px 40px 12px;background:#ffffff;">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:#888888;text-align:left;">Tu carrito</div>
+    <div style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:400;color:#111111;line-height:1.3;letter-spacing:-0.2px;text-align:left;margin-top:8px;">Lo que dejaste, <span style="font-style:italic;color:#999999;">sigue ahí</span>.</div>
+  </td></tr>
+
+  <!-- Cart products (DYNAMIC — Omnisend product_cart_recovery block) — preview shows sample layout -->
+  <tr><td style="padding:8px 40px 40px;background:#ffffff;">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
       <tr>
-        <td align="left" style="padding:28px 0 18px;">
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:500;letter-spacing:4px;text-transform:uppercase;color:#888888;text-align:left;">Aviso · Mayo 2026</div>
+        <!-- Product 1 -->
+        <td valign="top" width="50%" style="padding:8px;">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background:#fafafa;">
+            <tr><td style="padding:16px;">
+              <div style="background:#e8e8e8;width:100%;height:200px;display:flex;align-items:center;justify-content:center;color:#999;font-size:11px;text-align:center;line-height:200px;">[ Producto 1 imagen ]</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#111;margin-top:12px;">Producto en tu carrito</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#666;line-height:1.5;margin-top:6px;">Descripción del producto</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#111;margin-top:10px;">€00,00</div>
+              <a href="#" style="display:inline-block;margin-top:12px;background:#444;color:#fff;text-decoration:none;font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:12px 20px;">Comprar ahora</a>
+            </td></tr>
+          </table>
         </td>
-      </tr>
-      <tr>
-        <td align="left" style="padding:6px 0 14px;">
-          <div style="font-family:Georgia,'Times New Roman',serif;font-size:32px;font-weight:400;color:#111111;line-height:1.25;letter-spacing:-0.3px;text-align:left;">Si no pudiste terminar tu compra,</div>
-          <div style="font-family:Georgia,'Times New Roman',serif;font-size:32px;font-weight:400;font-style:italic;color:#999999;line-height:1.25;letter-spacing:-0.3px;text-align:left;">era un problema nuestro.</div>
-        </td>
-      </tr>
-      <tr>
-        <td align="left" style="padding:6px 0 22px;">
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;color:#888888;line-height:1.7;text-align:left;">Tuvimos un fallo de pago durante dos semanas. Ya está resuelto.</div>
-        </td>
-      </tr>
-      <tr>
-        <td align="left" style="padding:30px 0 6px;">
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:400;color:#333333;line-height:1.75;margin-bottom:16px;text-align:left;">Hola,</div>
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:400;color:#333333;line-height:1.75;margin-bottom:16px;text-align:left;">Durante las dos últimas semanas, nuestra plataforma de pago tuvo un fallo intermitente. Algunos pedidos no llegaron a completarse, y queremos pedirte disculpas si fue tu caso.</div>
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:400;color:#333333;line-height:1.75;text-align:left;">El problema ya está solucionado. Si tu carrito sigue esperando, puedes retomarlo cuando quieras, sin prisa.</div>
-        </td>
-      </tr>
-      <tr>
-        <td style="padding:32px 0;">
-          <div style="height:1px;background:#e0e0e0;"></div>
-        </td>
-      </tr>
-      <tr>
-        <td align="left" style="padding:0 0 32px;">
-          <a href="https://corecel.es/" target="_blank" style="display:inline-block;background:#444444;color:#ffffff;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:18px 32px;">Volver a Corecel</a>
-        </td>
-      </tr>
-      <tr>
-        <td align="left" style="padding:0 0 40px;">
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;color:#666666;line-height:1.7;text-align:left;font-style:italic;">Gracias por tu paciencia.</div>
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:400;color:#666666;line-height:1.7;text-align:left;margin-top:6px;">El equipo de Corecel</div>
+        <!-- Product 2 -->
+        <td valign="top" width="50%" style="padding:8px;">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background:#fafafa;">
+            <tr><td style="padding:16px;">
+              <div style="background:#e8e8e8;width:100%;height:200px;display:flex;align-items:center;justify-content:center;color:#999;font-size:11px;text-align:center;line-height:200px;">[ Producto 2 imagen ]</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#111;margin-top:12px;">Producto en tu carrito</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#666;line-height:1.5;margin-top:6px;">Descripción del producto</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#111;margin-top:10px;">€00,00</div>
+              <a href="#" style="display:inline-block;margin-top:12px;background:#444;color:#fff;text-decoration:none;font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:12px 20px;">Comprar ahora</a>
+            </td></tr>
+          </table>
         </td>
       </tr>
     </table>
-
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#aaa;font-style:italic;text-align:center;margin-top:16px;">↑ Bloque dinámico Omnisend — cada destinatario verá los productos de SU carrito abandonado</div>
   </td></tr>
 
-  <!-- Footer (mirrors Omnisend native footer) -->
+  <!-- Footer -->
   <tr><td align="center" style="padding:32px 40px;background:#d8d8d8;">
     <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:500;letter-spacing:0.18em;color:#111111;text-transform:lowercase;margin-bottom:12px;">corecel</div>
     <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#666666;line-height:1.6;">
